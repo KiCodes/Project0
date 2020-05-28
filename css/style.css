@@ -1,0 +1,451 @@
+body {
+ background: url("C:/Users/HP/Project0/media/vinyl.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+}
+.header {
+    height: 70px;
+    width: 100%;
+    background-color: #400675;
+    text-align: center;
+    border-bottom: 1px white solid;
+    opacity: 0.6;
+}
+#image-div{
+    height: 100%;
+    width: 20%;
+    text-align: top;
+    display: inline-block;
+}
+.sound-img{
+    height: 100%;
+    align-self: center;
+    display: inline-block;
+}
+.nav-link {
+    color: #8800cf;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: deeppink;
+}
+.disable {
+    pointer-events: none;
+    color: dimgray;
+}
+.body-hold{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.middle-div {
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+}
+#white-speaker {
+    height: 100%; 
+}
+#top-text {
+    position: absolute;
+    bottom: 82%;
+    width: 580px;
+    vertical-align: middle;
+    text-align: center;
+}
+p {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+}
+.form-row {
+        width: 600px;
+        height: 400px;
+        background: url("C:/Users/HP/Project0/media/mic.jpg") center center fixed;
+        background-size: cover;
+    }
+
+.music-bracket {
+    width: 700px;
+    position: absolute;
+    text-align: left;
+}
+.music-text {
+    display: inline-block;
+    font-size: 0.97rem;
+    font-weight: 700;
+    color: white;
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+}
+
+@media (max-width: 899px){
+    #top-text {
+    position: absolute;
+    bottom: 86%;
+    width: 570px;
+    vertical-align: middle;
+    text-align: center;
+}
+p {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: white; 
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+}  
+
+}
+
+@media (max-width: 799px){
+    #top-text {
+    position: absolute;
+    bottom: 85%;
+    width: 570px;
+    vertical-align: middle;
+    text-align: center;
+}
+p {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: white;
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+}
+    .form-row {
+        width: 400px;
+        background: url("C:/Users/HP/Project0/media/mic.jpg") center center fixed;
+        background-size: cover;
+            ;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+    .body-hold{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.middle-div {
+    height: 80%;
+    display: inline-block;
+}
+    #top-text {
+    position: absolute;
+    bottom: 86%;
+    width: 450px;
+    vertical-align: middle;
+    text-align: center;
+}
+p {
+    font-size: 0.70em;
+    font-weight: 700;
+    color: whitesmoke;
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+}
+    .form-row {
+        width: 300px;
+    }
+.label-size{
+        width: 70%;
+        margin: 0 0 0 40px;
+}
+}
+
+@media (max-width: 575.98px) {
+        #top-text {
+    position: absolute;
+    bottom: 83%;
+    width: 400px;
+    vertical-align: middle;
+    text-align: center;
+}
+p {
+    font-size: 0.70rem;
+    font-weight: 700;
+    color: whitesmoke;
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+}
+    .body-hold{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.middle-div {
+    height: 70%;
+    display: inline-block;
+    text-align: center;
+}
+ .form-row {
+        width: 300px;
+     
+    }
+    .label-size{
+        width: 70%;
+        margin: 0 0 0 40px;
+}
+}
+
+.contact-us{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    border-bottom: 2px solid white;
+}
+.white-text{
+    color: white;
+    font-size: 1.05rem;
+    font-weight: 700;
+} 
+.underline {
+    font-style: italic;
+    text-decoration: underline;
+}
+.hover:hover{
+    background-color: brown;
+    width: 100%;
+}
+.btn{
+    background-color: green;
+}
+.btn:hover{
+    background-color: darkorange;
+}
+.music-div {
+    position: relative;
+    width: 100%; 
+    background-color: rgba(31, 0, 0, 0.4);
+    align-items: right;
+    margin: 5px;
+    border: 2px solid #7a56ff;
+}
+.track-div {
+    left: 850px;
+    align-self: center;
+    position: relative;
+    width: 500px;
+    font-size: 10px; 
+    color: #cccccc;
+    line-break: anywhere;
+    word-break: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; 
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+    font-weight: 100;
+}
+    .music-bracket {
+    width: 700px;
+    position: absolute;
+    text-align: left;
+}
+.music-text {
+    display: inline-block;
+    font-size: 0.97rem;
+    font-weight: 700;
+    color: white;
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+}
+@media (max-width: 1300px) {
+    .music-div {
+    position: relative;
+    width: 100%; 
+    background-color: rgba(31, 0, 0, 0.4);
+    align-items: right;
+        margin: 3px;
+    border: 1px solid #7a56ff;
+}
+.track-div {
+    left: 580px;
+    align-self: center;
+    position: relative;
+    width: 580px;
+    font-size: 10px; 
+    color: #cccccc;
+    line-break: anywhere;
+    word-break: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; 
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+    font-weight: 100;
+}
+    .music-bracket {
+    width: 400px;
+    position: absolute;
+    text-align: left;
+    margin: 4px;
+}
+.music-text {
+    display: inline-block;
+    font-size: 0.87rem;
+    font-weight: 700;
+    color: white;
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+}
+}
+@media (max-width: 899px) {
+    .music-div {
+    position: relative;
+    width: 100%; 
+    background-color: rgba(31, 0, 0, 0.4);
+    align-items: right;
+    margin: 4px;
+    border: 2px solid #7a56ff;
+}
+.track-div {
+    left: 500px;
+    align-self: center;
+    position: relative;
+    width: 350px;
+    font-size: 10px; 
+    color: #cccccc;
+    line-break: anywhere;
+    word-break: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; 
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+    font-weight: 100;
+}
+    .music-bracket {
+    width: 400px;
+    position: absolute;
+    text-align: left;
+        margin: 3px;
+}
+.music-text {
+    display: inline-block;
+    font-size: 0.87rem;
+    font-weight: 700;
+    color: white;
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+}
+}
+@media (max-width: 799px){
+    .music-div {
+    position: relative;
+    width: 100%; 
+    background-color: rgba(31, 0, 0, 0.4);
+    align-items: right;
+        margin: 7px;
+    border: 1px solid lightblue;
+}
+.track-div {
+    left: 500px;
+    align-self: center;
+    position: relative;
+    width: 250px;
+    font-size: 10px; 
+    color: #cccccc;
+    line-break: anywhere;
+    word-break: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; 
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+    font-weight: 100;
+}
+    .music-bracket {
+    width: 400px;
+    position: absolute;
+    text-align: left;
+        margin: 6px;
+}
+.music-text {
+    display: inline-block;
+    font-size: 0.87rem;
+    font-weight: 700;
+    color: white;
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+}
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .music-div {
+    position: relative;
+    width: 100%; 
+    height: 310px;
+    background-color: rgba(31, 0, 0, 0.4);
+    align-items: right;
+    margin: 3px;
+    border: 1px solid #7700e5;
+}
+.track-div {
+    left: 10px;
+    top: 100px;
+    align-self: center;
+    position: relative;
+    width: 550px;
+    font-size: 10px; 
+    color: #cccccc;
+    line-break: anywhere;
+    word-break: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; 
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+    font-weight: 100;
+}
+    .music-bracket {
+    width: 550px;
+    position: absolute;
+    text-align: left;
+}
+.music-text {
+    display: inline-block;
+    font-size: 0.80rem;
+    font-weight: 700;
+    color: white;
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+}
+}
+@media (max-width: 575px) {
+    .music-div {
+    position: relative;
+    width: 100%; 
+    height: 310px;
+    background-color: rgba(31, 0, 0, 0.4);
+    align-items: right;
+    margin: 4px;
+    border: 1px solid #7a56ff;
+}
+.track-div {
+    left: 10px;
+    top: 100px;
+    align-self: center;
+    position: relative;
+    width: 400px;
+    font-size: 10px; 
+    color: #cccccc;
+    line-break: anywhere;
+    word-break: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; 
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+    font-weight: 100;
+}
+    .music-bracket {
+    width: 450px;
+    position: absolute;
+    text-align: left;
+}
+.music-text {
+    display: inline-block;
+    font-size: 0.80rem;
+    font-weight: 700;
+    color: white;
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+}
+}
+h1 {
+    position: relative;
+}
+#margin{
+    margin: 34px;
+    display: inline-block;
+    font-size: 1.35rem;
+    font-style: italic;
+    color: coral;
+}
