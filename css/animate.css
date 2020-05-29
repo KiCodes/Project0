@@ -2,7 +2,7 @@
 .social-buttons a{
   display: inline-flex;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 23px;
   width: 60px;
   height: 60px;
   color: #fff;
@@ -38,6 +38,7 @@
   transform: scale(2.2);
 }
 
+
 @media (max-width: 899px){
 .social-buttons a{
   display: inline-flex;
@@ -45,7 +46,7 @@
   font-size: 18px;
   width: 60px;
   height: 60px;
-  color: #pink;
+  color: #fff;
   justify-content: center;
   align-items: center;
   position: relative;
