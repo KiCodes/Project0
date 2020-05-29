@@ -40,19 +40,21 @@ body {
     text-align: center;
 }
 .middle-div {
+    position: relative;
     height: 100%;
     display: inline-block;
     text-align: center;
 }
-#white-speaker {
+#whitespeaker {
     height: 100%; 
 }
-#top-text {
+#toptext {
     position: absolute;
-    bottom: 82%;
+    bottom: 75%;
     width: 580px;
     vertical-align: middle;
     text-align: center;
+    color: gray;
 }
 p {
     font-size: 1.25rem;
@@ -80,6 +82,58 @@ p {
     font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
 }
 
+@media (min-width: 1026px) {
+    .middle-div {
+    height: 90%;
+    display: inline-block;
+}
+    #toptext {
+    position: absolute;
+    bottom: 79%;
+    width: 520px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 0.9rem;
+}
+    
+}
+@media (min-width: 1024px) and (max-width: 1025px) {
+    .middle-div {
+    height: 70%;
+    display: inline-block;
+}
+    #toptext {
+    position: absolute;
+    bottom: 84%;
+    width: 800px;
+    vertical-align: middle;
+    text-align: center;
+        font-size: 1.6rem;
+}
+}
+@media (min-width: 769) and (max-width: 1023px){
+    .middle-div {
+    height: 80%;
+    display: inline-block;
+}
+    #toptext {
+    position: absolute;
+    bottom: 75%;
+    width: 800px;
+    vertical-align: middle;
+    text-align: center;
+}
+p {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: white; 
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+}
+.disable {
+    pointer-events: none;
+    color: dimgray;
+}
+}
 @media (max-width: 899px){
     #top-text {
     position: absolute;
@@ -97,16 +151,20 @@ p {
 
 }
 
-@media (max-width: 799px){
-    #top-text {
+@media (max-width: 768px){
+    .middle-div {
+    height: 70%;
+    display: inline-block;
+}
+    #toptext {
     position: absolute;
-    bottom: 85%;
-    width: 570px;
+    bottom: 76%;
+    width: 640px;
     vertical-align: middle;
     text-align: center;
 }
 p {
-    font-size: 1.05rem;
+    font-size: 1.35rem;
     font-weight: 700;
     color: white;
     font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
@@ -130,15 +188,15 @@ p {
     height: 80%;
     display: inline-block;
 }
-    #top-text {
+    #toptext {
     position: absolute;
-    bottom: 86%;
+    bottom: 75%;
     width: 450px;
     vertical-align: middle;
     text-align: center;
 }
 p {
-    font-size: 0.70em;
+    font-size: 0.95em;
     font-weight: 700;
     color: whitesmoke;
     font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
@@ -152,16 +210,16 @@ p {
 }
 }
 
-@media (max-width: 575.98px) {
-        #top-text {
+@media (min-width: 376px) and (max-width: 575px) {
+    #toptext {
     position: absolute;
-    bottom: 83%;
-    width: 400px;
+    bottom: 60%;
+    width: 270px;
     vertical-align: middle;
     text-align: center;
 }
 p {
-    font-size: 0.70rem;
+    font-size: 0.87rem;
     font-weight: 700;
     color: whitesmoke;
     font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
@@ -173,7 +231,7 @@ p {
     text-align: center;
 }
 .middle-div {
-    height: 70%;
+    height: 50%;
     display: inline-block;
     text-align: center;
 }
@@ -187,6 +245,74 @@ p {
 }
 }
 
+@media (max-width: 375.98px) {
+    #toptext {
+    position: absolute;
+    bottom: 70%;
+    width: 300px;
+    vertical-align: middle;
+    text-align: center;
+}
+p {
+    font-size: 0.87rem;
+    font-weight: 700;
+    color: whitesmoke;
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+}
+    .body-hold{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.middle-div {
+    height: 50%;
+    display: inline-block;
+    text-align: center;
+}
+ .form-row {
+        width: 300px;
+     
+    }
+    .label-size{
+        width: 70%;
+        margin: 0 0 0 40px;
+}
+}
+@media (max-width: 360px) {
+    #toptext {
+    position: absolute;
+    bottom: 60%;
+    width: 280px;
+    vertical-align: middle;
+    text-align: center;
+}
+}
+@media (max-width: 320px) {
+    .nav-link {
+    color: #8800cf;
+    font-weight: bold;
+    width: 60px;
+    font-size: 0.70rem;
+}
+    .disable {
+    pointer-events: none;
+    color: dimgray;
+}
+    #toptext {
+    position: absolute;
+    bottom: 58%;
+    width: 240px;
+    vertical-align: middle;
+    text-align: center;
+}
+    p {
+    font-size: 0.777rem;
+    font-weight: 700;
+    color: whitesmoke;
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+}
+}
 .contact-us{
     width: 100%;
     height: 30px;
@@ -208,6 +334,7 @@ p {
 }
 .btn{
     background-color: green;
+    border: white 2px solid;
 }
 .btn:hover{
     background-color: darkorange;
@@ -247,6 +374,7 @@ p {
     color: white;
     font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
 }
+
 @media (max-width: 1300px) {
     .music-div {
     position: relative;
@@ -280,6 +408,44 @@ p {
 .music-text {
     display: inline-block;
     font-size: 0.87rem;
+    font-weight: 700;
+    color: white;
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+}
+}
+@media (max-width: 1024px) {
+    .music-div {
+    position: relative;
+    width: 100%; 
+    background-color: rgba(31, 0, 0, 0.4);
+    align-items: right;
+        margin: 3px;
+    border: 1px solid #7a56ff;
+}
+.track-div {
+    left: 580px;
+    align-self: center;
+    position: relative;
+    width: 580px;
+    font-size: 10px; 
+    color: #cccccc;
+    line-break: anywhere;
+    word-break: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; 
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+    font-weight: 100;
+}
+    .music-bracket {
+    width: 500px;
+    position: absolute;
+    text-align: left;
+    margin: 4px;
+}
+.music-text {
+    display: inline-block;
+    font-size: 1.20rem;
     font-weight: 700;
     color: white;
     font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
@@ -400,7 +566,7 @@ p {
     font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
 }
 }
-@media (max-width: 575px) {
+@media (min-width: 376px) and (max-width: 575px) {
     .music-div {
     position: relative;
     width: 100%; 
@@ -412,10 +578,10 @@ p {
 }
 .track-div {
     left: 10px;
-    top: 100px;
+    top: 120px;
     align-self: center;
     position: relative;
-    width: 400px;
+    width: 330px;
     font-size: 10px; 
     color: #cccccc;
     line-break: anywhere;
@@ -427,8 +593,8 @@ p {
     font-weight: 100;
 }
     .music-bracket {
-    width: 450px;
-    position: absolute;
+    width: 340px;
+    position: rela;
     text-align: left;
 }
 .music-text {
@@ -439,13 +605,173 @@ p {
     font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
 }
 }
+@media (max-width: 375px) {
+    .music-div {
+    position: relative;
+    width: 100%; 
+    height: 310px;
+    background-color: rgba(31, 0, 0, 0.4);
+    align-items: right;
+    margin: 4px;
+    border: 1px solid #7a56ff;
+}
+.track-div {
+    left: 10px;
+    top: 120px;
+    align-self: center;
+    position: relative;
+    width: 330px;
+    font-size: 10px; 
+    color: #cccccc;
+    line-break: anywhere;
+    word-break: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; 
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+    font-weight: 100;
+}
+    .music-bracket {
+    width: 340px;
+    position: rela;
+    text-align: left;
+}
+.music-text {
+    display: inline-block;
+    font-size: 0.80rem;
+    font-weight: 700;
+    color: white;
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+}
+}
+@media (max-width: 360px) {
+    .music-bracket {
+    width: 340px;
+    position: rela;
+    text-align: left;
+}
+}
+@media (max-width: 320px) {
+        .music-div {
+    position: relative;
+    width: 100%; 
+    height: 350px;
+    background-color: rgba(31, 0, 0, 0.4);
+    align-items: right;
+    margin: 4px;
+    border: 1px solid #7a56ff;
+}
+    .music-bracket {
+    width: 300px;
+    position: rela;
+    text-align: left;
+}
+    .track-div {
+    left: 10px;
+    top: 150px;
+    align-self: center;
+    position: relative;
+    width: 290px;
+    font-size: 10px; 
+    color: #cccccc;
+    line-break: anywhere;
+    word-break: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; 
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+    font-weight: 100;
+}
+}
 h1 {
     position: relative;
 }
-#margin{
+.margin{
+    position: relative;
     margin: 34px;
-    display: inline-block;
     font-size: 1.35rem;
     font-style: italic;
     color: coral;
+}
+.pic-soon {
+    width: 60%;
+    height: 100%;
+    display: inline-block;
+}
+
+#comingSoon {
+    height: 100%;
+    object-fit: cover;
+}
+@media (max-width: 1300px) {
+.pic-soon {
+    position: relative;
+    right: 10px;
+    height: 90%;
+}
+
+#comingSoon {
+    height: 90%;
+    object-fit: cover;
+}
+}
+@media (max-width: 1024px){
+.pic-soon {
+    position: relative;
+    right: 11%;
+    height: 70%;
+}
+
+#comingSoon {
+    height: 90%;
+    object-fit: cover;
+}
+}
+@media (max-width: 768px){
+.pic-soon {
+    position: relative;
+    right: 11%;
+    height: 70%;
+}
+
+#comingSoon {
+    height: 90%;
+    object-fit: cover;
+}
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+.pic-soon {
+    position: relative;
+    right: 7%;
+    height: 80%;
+}
+
+#comingSoon {
+    height: 90%;
+    object-fit: cover;
+}
+}
+@media (max-width: 414px) {
+.pic-soon {
+    position: relative;
+    right: 16%;
+    height: 70%;
+}
+
+#comingSoon {
+    height: 60%;
+    object-fit: cover;
+}
+}
+@media (max-width: 375px) {
+.pic-soon {
+    position: relative;
+    right: 11%;
+    height: 70%;
+}
+
+#comingSoon {
+    height: 50%;
+    object-fit: cover;
+}
 }

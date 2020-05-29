@@ -1,0 +1,17 @@
+$bg: #6e0202; // my background color
+
+@function text-clr($bg) {
+  @if (lightness($bg) > 50) {
+    @return #000;
+  } @else {
+    @return #e8dfdf;
+  }
+}
+
+@mixin dc($color) {
+    background: $color;
+    color: text($color);
+}
+.btn {
+    @include dc($bg);
+}
