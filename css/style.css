@@ -48,14 +48,6 @@ body {
 #whitespeaker {
     height: 100%; 
 }
-#toptext {
-    position: absolute;
-    bottom: 75%;
-    width: 580px;
-    vertical-align: middle;
-    text-align: center;
-    color: gray;
-}
 p {
     font-size: 1.25rem;
     font-weight: 700;
@@ -84,44 +76,20 @@ p {
 
 @media (min-width: 1026px) {
     .middle-div {
-    height: 90%;
+    height: 100%;
     display: inline-block;
-}
-    #toptext {
-    position: absolute;
-    bottom: 79%;
-    width: 520px;
-    vertical-align: middle;
-    text-align: center;
-    font-size: 0.9rem;
-}
-    
+}   
 }
 @media (min-width: 1024px) and (max-width: 1025px) {
     .middle-div {
-    height: 70%;
+    height: 100%;
     display: inline-block;
-}
-    #toptext {
-    position: absolute;
-    bottom: 84%;
-    width: 800px;
-    vertical-align: middle;
-    text-align: center;
-        font-size: 1.6rem;
 }
 }
 @media (min-width: 769) and (max-width: 1023px){
     .middle-div {
-    height: 80%;
+    height: 100%;
     display: inline-block;
-}
-    #toptext {
-    position: absolute;
-    bottom: 75%;
-    width: 800px;
-    vertical-align: middle;
-    text-align: center;
 }
 p {
     font-size: 2.2rem;
@@ -135,12 +103,9 @@ p {
 }
 }
 @media (max-width: 899px){
-    #top-text {
-    position: absolute;
-    bottom: 86%;
-    width: 570px;
-    vertical-align: middle;
-    text-align: center;
+    .middle-div {
+    height: 100%;
+    display: inline-block;
 }
 p {
     font-size: 1.05rem;
@@ -155,13 +120,6 @@ p {
     .middle-div {
     height: 70%;
     display: inline-block;
-}
-    #toptext {
-    position: absolute;
-    bottom: 76%;
-    width: 640px;
-    vertical-align: middle;
-    text-align: center;
 }
 p {
     font-size: 1.35rem;
@@ -188,13 +146,6 @@ p {
     height: 80%;
     display: inline-block;
 }
-    #toptext {
-    position: absolute;
-    bottom: 75%;
-    width: 450px;
-    vertical-align: middle;
-    text-align: center;
-}
 p {
     font-size: 0.95em;
     font-weight: 700;
@@ -211,13 +162,6 @@ p {
 }
 
 @media (min-width: 376px) and (max-width: 575px) {
-    #toptext {
-    position: absolute;
-    bottom: 60%;
-    width: 270px;
-    vertical-align: middle;
-    text-align: center;
-}
 p {
     font-size: 0.87rem;
     font-weight: 700;
@@ -244,15 +188,34 @@ p {
         margin: 0 0 0 40px;
 }
 }
-
+@media (max-width: 414px) {
+p {
+    font-size: 0.87rem;
+    font-weight: 700;
+    color: whitesmoke;
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+}
+    .body-hold{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.middle-div {
+    height: 50%;
+    display: inline-block;
+    text-align: center;
+}
+ .form-row {
+        width: 300px;
+     
+    }
+    .label-size{
+        width: 70%;
+        margin: 0 0 0 40px;
+}
+}
 @media (max-width: 375.98px) {
-    #toptext {
-    position: absolute;
-    bottom: 70%;
-    width: 300px;
-    vertical-align: middle;
-    text-align: center;
-}
 p {
     font-size: 0.87rem;
     font-weight: 700;
@@ -277,15 +240,6 @@ p {
     .label-size{
         width: 70%;
         margin: 0 0 0 40px;
-}
-}
-@media (max-width: 360px) {
-    #toptext {
-    position: absolute;
-    bottom: 60%;
-    width: 280px;
-    vertical-align: middle;
-    text-align: center;
 }
 }
 @media (max-width: 320px) {
@@ -348,7 +302,7 @@ p {
     border: 2px solid #7a56ff;
 }
 .track-div {
-    left: 850px;
+    left: 790px;
     align-self: center;
     position: relative;
     width: 500px;
@@ -385,7 +339,7 @@ p {
     border: 1px solid #7a56ff;
 }
 .track-div {
-    left: 580px;
+    left: 540px;
     align-self: center;
     position: relative;
     width: 580px;
@@ -426,7 +380,7 @@ p {
     left: 580px;
     align-self: center;
     position: relative;
-    width: 580px;
+    width: 560px;
     font-size: 10px; 
     color: #cccccc;
     line-break: anywhere;
@@ -461,7 +415,7 @@ p {
     border: 2px solid #7a56ff;
 }
 .track-div {
-    left: 500px;
+    left: 480px;
     align-self: center;
     position: relative;
     width: 350px;
